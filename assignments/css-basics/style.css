@@ -1,0 +1,66 @@
+body {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-family: 'Raleway';
+
+    background: black;
+    color: rgb(250, 249, 249);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+header h2 {
+    font-weight: 250px;
+}
+
+nav a {
+    margin: 0 1rem;
+    color:rgb(224, 45, 120)
+    line-height: 1.5em;
+}
+
+nav a:hover {
+    color:rgb(63, 37, 179)
+}
+
+main {
+    background: black;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    max-width: 55rem;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    margin: 3rem 0;
+    border-left: .5rem solid rgb(63, 37, 179)
+}
+section h3 {
+    font-style: italics;
+    background: rgb(35, 35, 35);
+    margin: 0;
+    padding: .5rem;
+
+}
+
+section p {
+    background:rgb(44, 44, 44); 
+    margin: 0;
+    padding: .5rem;
+}
+
+footer {
+    margin: 0;
+    padding: 1rem;
+
+}
