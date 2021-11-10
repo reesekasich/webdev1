@@ -1,0 +1,58 @@
+
+body {
+    max-width: 50rem;
+    margin: 300px;
+    font-family: 'Raleway';
+    background: black;
+    color: rgb(250, 249, 249);
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background:blue;
+    padding: 3em;
+
+    transition-duration: 500ms;
+    transition-property: all;
+    display: grid; 
+    place-items: center;
+
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes spin {
+0% {
+    border-radius: 0;
+    transform: rotate(0);
+    background: pink;
+}
+
+50% {
+border-radius: 0;
+transform: rotate(0);
+background: purple;
+}
+
+100% {
+    border-radius: 50%;
+    transform: rotate(360deg);
+    background: yellow;
+    }
+
+}
+
+ from {
+    border-radius: 0;
+    transform: rotate(600deg);
+        }
+    
+ to {
+    border-radius: 50%;
+    transform: rotate (360deg);
+        }
