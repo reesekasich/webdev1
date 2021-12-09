@@ -13,9 +13,10 @@
   }
   .menu a{
       color:black;
-      margin: 4em;
+      margin: 0;
+      padding: 5px;
       color: black;
-      padding: 4em;
+      line-height: 1.5em;
 }
 
 .gallery{
