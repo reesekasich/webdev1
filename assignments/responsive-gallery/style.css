@@ -1,6 +1,5 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
-
 .menu {
     display: flex;
     font-size: 1em;
@@ -25,58 +24,56 @@
     top: 20%;
     padding: 1em;
     background-color: white;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     grid-gap: .5em;
 }
 
+.gallery{
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  }
 
-@media (max-width: 1050px){
-    .gallery{
-        grid-template-columns: 1fr 1fr;
     }
     .title{
-        font-size: 18px;
+        font-size: 15px;
     }
-}
-@media (max-width: 768px){
-    .gallery{
-    grid-template-columns: .7fr .7fr;
-    }
-}
 
 .hover-card {
-  position: relative;
+  position:relative;
   
 }
 
-.hover-card:hover .overlay {
-  opacity: 1;
+.hover-card:hover 
+.overlay {
+  opacity: 5;
+}
+.hover-card  {
+  width: 100%;
+  height: 100%;
 }
 
 .overlay {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: all .25s;
+
   color: rgb(0, 0, 0);
-  background: rgba(255, 255, 255, 0.822);
+  background: white;
   opacity: 0;
-  position: absolute;
   z-index: 1;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  letter-spacing: .3em;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  
- display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all .25s;
+  position: absolute;
+  letter-spacing: .5em;
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+
 }
 
-.hover-card img {
-  width: 100%;
-  height: 100%;
 }
-
+@media (max-width: 650px)
+}
